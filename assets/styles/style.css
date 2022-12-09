@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-    color:lightskyblue;
+    color:purple;
 }
 
 #bold {
@@ -92,6 +92,10 @@ h1 {
     background-color: beige;
 }
 
+#profile {
+    padding-left: 6px;
+}
+
 #a {
     display: inline;
 }
@@ -108,14 +112,18 @@ h1 {
     display: inline;
 }
 
-#message {
-    padding: 3px;
+#playgame {
+    background-color: #4caf50;
+    border: solid 2px black;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: 12px 6px;
+    padding: 18px 12px;
+    position: relative;
 }
 
-#contributions {
-    padding: 3px;
-}
-
-#api {
-    padding: 3px;
+#playgame:hover {
+    background-color: gray;
 }
