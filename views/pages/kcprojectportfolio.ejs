@@ -3,6 +3,14 @@
 
         <h1>Project Profile</h1>
 
+        <p class="foo">
+            <a href="#problem">About Our Project</a> | 
+            <a href="#solution">Our Path</a> | 
+            <a href="#contributions">My Role</a> |
+            <a href="#tryitout">Try it</a> |
+            <a href="#experience">Conclusion</a>
+        </p>
+
         <div id="profile">
 
             <h2 id="problem">About Our Project</h2>
@@ -131,10 +139,33 @@
 
             <div id="tryitout">
                 <h3>Try it Out</h3>
-                <p>Wanna try it out? Go to <a href="http://kittycombos.hopto.org/">kittycombos.hopto.org</a> or click the button below:</p>
-                <form action="http://kittycombos.hopto.org/">
+                <p>Wanna try it out? Go to <a href="http://kittycombos.hopto.org/" target="_blank">kittycombos.hopto.org</a> or click the button below:</p>
+                <form action="http://kittycombos.hopto.org/" target="_blank">
                     <input id="playgame" type="submit" value="PLAY KITTY COMBOS!!!">
                 </form>
+            </div>
+
+            <div id="experience">
+                <h2>My Thoughts</h2>
+                <h3>Lessons Learned</h3>
+                <p>Wow, it's hard to believe this project is over. I've invested so much time into this project that I'm not sure I want it to end. That said, I am very proud of my work and am ready to move on to newer projects. Over the last seven and a half weeks, I have learned how to work in a group on projects. If I had to take away three things from this project it would be these:</p>
+                <ul>
+                    <li>Document everything!</li>
+                    <li>Schedule frequently.</li>
+                    <li>Separate work for easy merge.</li>
+                </ul>
+                <p>Documentation will save your life. I have had multiple times where I have been stuck/lost only to find hope and a solution in the already written documentation. My own wireframes saved me probably a dozen hours of trial and error due to the restrictions of mapping everything out ahead of time with tables in Microsoft Word.</p>
+                <p>Scheduling is immensely important in a group environment where everyone is counting on each other to produce the resources required to proceed (documentation/code/server). It is incredibly important to foster an atmosphere of collaboration where all team members can contribute on time and as needed.</p>
+                <p>What's also important is working together with separate content. When multiple people are working on various functions, it is important to make sure you don't override someone else's work on merge. This is why my api code is separate from the main script and the game logic. This separation allows me to edit to my heart's content and then ask Gabriel (merge manager) to commit my work to the main branch without overwriting any of the unmodified files.</p>
+                <br />
+                <h3>My Connection</h3>
+                <p>This project, especially my API code, means a lot to me. I invested a lot of my time this quarter on making sure this project works and lives up to the standards set by the design documents. I have sacrificed sometimes multiple days of sleep in a row to balance this project with my other classes and job. As such, I am very proud of this project and all the hard work it represents. I am glad to have worked with the group I did and look forward to collaborating with them in future classes. This project inspires confidence in me to continue to learn and pursue web development on the server side, academically, something I always worried was above my skill set. I feel more secure in my future career as I gain a better grasp of the concepts. Through this project I feel as though I have strengthened my teamwork, github, and API skill sets.</p>
+                <br />
+                <h3>Where it Almost Went Wrong</h3>
+                <p>One of the requirements for the individual assignment was a link from this very project page to a running version of our game. Our primary issue was the requirement of a database to hold scores, a database we programmed to only run on node. Lori, Gabriel, and I knocked our heads against the wall for several hours from early in the day till late. After struggling with the Google virtual machines, where the Oregon server was out of resources, and encountering various issues with nginx routing having to do with our own limited knowledge, Gabriel was the one to solve the issue and save our project. The experience really put into perspective how little I actually know about server routing. It was a humbling experience that, thanks to Gabriel's breakthrough, encourages me to learn more.</p>
+                <br />
+                <h3>To Those on The Same Path</h3>
+                <p>For anyone compelled to embark on the same journey, my advice to you is this. Learn from my lessons. Always document everything you do. Spend at least a week writing out, step by step, your plans and goals. These will be the driving force that keeps you going when motivation runs out. In a group, this documentation is even more important as it is vital to your team members understanding your thought process. In a group setting, communication is key. Always set aside time in the week to check in with your team to make sure everyone is on track. In an ideal world, I recommend doing one planning meeting at the start of the week and one check in meeting at the end of the week to make sure everyone is performing in their best environment with all the tools they need is highly important. Additionally, separating out and commenting code is a necessity in supporting both yours and your group's sanity. Lastly, but not least, have fun. These large projects can be frustrating, but the source of triumph and relief at the end is worth it.</p>
             </div>
         </div>
         <br />
